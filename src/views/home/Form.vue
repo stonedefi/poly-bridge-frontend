@@ -7,7 +7,8 @@
           <div class="label">{{ $t('home.form.asset') }}</div>
           <CButton class="select-token-basic" @click="selectTokenBasicVisible = false">
             <template v-if="tokenBasic">
-              <img class="select-token-basic-icon" :src="tokenBasic.meta" />
+              <!-- <img class="select-token-basic-icon" :src="tokenBasic.meta" /> -->
+              <img class="select-token-basic-icon" src="@/assets/jpg/stone.jpg" />
               <span class="select-token-basic-name">{{ tokenBasicName }}</span>
             </template>
             <CFlexSpan />

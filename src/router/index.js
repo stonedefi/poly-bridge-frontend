@@ -9,16 +9,16 @@ const routes = [
     name: 'home',
     component: () => import('@/views/home'),
   },
-  {
-    path: '/token/:token',
-    name: 'token',
-    component: () => import('@/views/home'),
-  },
-  {
-    path: '/token',
-    name: 'tokenD',
-    component: () => import('@/views/home'),
-  },
+  // {
+  //   path: '/token/:token',
+  //   name: 'token',
+  //   component: () => import('@/views/home'),
+  // },
+  // {
+  //   path: '/token',
+  //   name: 'tokenD',
+  //   component: () => import('@/views/home'),
+  // },
   // {
   //   path: '/nft',
   //   name: 'nft',

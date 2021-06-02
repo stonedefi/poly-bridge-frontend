@@ -162,6 +162,7 @@ export const UNKNOWN_ICON = require('@/assets/svg/unknown.svg');
 export const UNKNOWN_NFT = require('@/assets/png/nft.png');
 
 export const TOKEN_BASIC_ICONS = {
+  STN: require('@/assets/jpg/stone.jpg'),
   NEO: require('@/assets/svg/neo-token.svg'),
   nNEO: require('@/assets/svg/neo-token.svg'),
   ETH: require('@/assets/svg/eth-token.svg'),
