@@ -222,7 +222,7 @@ export const TOKEN_BASIC_ICONS = {
   '8PAY': require('@/assets/jpg/8pay.jpg'),
 };
 
-export const DEFAULT_TOKEN_BASIC_NAME = 'PLY';
+export const DEFAULT_TOKEN_BASIC_NAME = 'STN';
 export const DEFAULT_CHAIN_NAME = 'ETH';
 
 export const TOP_TOKEN_BASIC_NAMES = ['NEO', 'nNEO', 'ETH', 'USDT', 'USDC', 'DAI'];
