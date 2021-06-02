@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="top">
-      <CLink href="https://github.com/polynetwork" target="_blank">
+      <!-- <CLink href="https://github.com/polynetwork" target="_blank">
         <img src="@/assets/svg/github.svg" />
       </CLink>
       <CLink href="https://discord.com/invite/y6MuEnq" target="_blank">
@@ -21,7 +21,7 @@
       </CLink>
       <CLink href="https://medium.com/@polynetwork" target="_blank">
         <img src="@/assets/svg/medium.svg" />
-      </CLink>
+      </CLink> -->
     </div>
     <div class="bottom">
       <div class="copyright">

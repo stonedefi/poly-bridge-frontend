@@ -6,7 +6,7 @@ export default {
   ...element,
   common: {
     header: {
-      brandName: 'PolyBridge',
+      brandName: 'Home',
     },
     wallets: {
       connectWallet: 'Connect Wallet',
@@ -25,7 +25,7 @@ export default {
       connectWallet: 'Connect {walletName}',
     },
     footer: {
-      copyright: '© 2021 Polynetwork. All rights reserved.',
+      copyright: '',
     },
   },
   home: {

@@ -1,11 +1,11 @@
 <template>
   <Page class="home">
-    <img class="top-decoration" src="@/assets/svg/poly-bg.svg" />
+    <!-- <img class="top-decoration" src="@/assets/svg/poly-bg.svg" /> -->
     <div class="bottom-decoration-wrapper">
-      <img class="bottom-decoration" src="@/assets/svg/poly-bg.svg" />
+      <!-- <img class="bottom-decoration" src="@/assets/svg/poly-bg.svg" /> -->
     </div>
     <div class="content">
-      <div class="slogan" v-html="$t('home.index.slogon')" />
+      <!-- <div class="slogan" v-html="$t('home.index.slogon')" /> -->
       <Form />
     </div>
   </Page>
@@ -27,7 +27,7 @@ export default {
 <style lang="scss" scoped>
 .home {
   min-width: 1440px;
-  background-image: var(--background-image);
+  // background-image: var(--background-image);
 }
 
 .top-decoration {

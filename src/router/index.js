@@ -19,21 +19,21 @@ const routes = [
     name: 'tokenD',
     component: () => import('@/views/home'),
   },
-  {
-    path: '/nft',
-    name: 'nft',
-    component: () => import('@/views/nft'),
-  },
+  // {
+  //   path: '/nft',
+  //   name: 'nft',
+  //   component: () => import('@/views/nft'),
+  // },
   {
     path: '/transactions',
     name: 'transactions',
     component: () => import('@/views/transactions'),
   },
-  {
-    path: '/nfttransactions',
-    name: 'nfttransactions',
-    component: () => import('@/views/nfttransactions'),
-  },
+  // {
+  //   path: '/nfttransactions',
+  //   name: 'nfttransactions',
+  //   component: () => import('@/views/nfttransactions'),
+  // },
 ];
 
 const router = new VueRouter({
