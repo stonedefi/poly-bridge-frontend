@@ -25,7 +25,8 @@ export default {
   width: stretch;
   height: 40px;
   border-radius: 4px;
-  background: linear-gradient(225deg, #3ec7eb 0%, #282bdb 100%);
+  // background: linear-gradient(225deg, #3ec7eb 0%, #282bdb 100%);
+  background: #654218;
   font-weight: 500;
   font-size: 14px;
   color: white !important;

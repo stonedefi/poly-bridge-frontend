@@ -1,7 +1,5 @@
 <template>
-  <button v-bind="$attrs"
-          :class="b({ fade })"
-          v-on="$listeners">
+  <button v-bind="$attrs" :class="b({ fade })" v-on="$listeners">
     <slot />
   </button>
 </template>
@@ -34,13 +32,13 @@ export default {
   }
 
   @include modifier(fade) {
-    &:hover {
-      filter: brightness(0.6);
-    }
+    // &:hover {
+    //   filter: brightness(0.6);
+    // }
   }
 
   &:disabled {
-    filter: brightness(0.3);
+    opacity: 0.6;
     cursor: not-allowed;
   }
 }
