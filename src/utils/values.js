@@ -32,7 +32,8 @@ export const WALLETS = [
   },
   {
     name: WalletName.Binance,
-    supportedChainIds: [ChainId.Bsc],
+    // supportedChainIds: [ChainId.Bsc],
+    supportedChainIds: [],
     icon: require('@/assets/svg/binance.svg'),
     downloadUrl:
       'https://chrome.google.com/webstore/detail/binance-chain-wallet/fhbohimaelbohpjbbldcngcnapndodjp',
@@ -48,7 +49,8 @@ export const WALLETS = [
   //   ? [
   {
     name: WalletName.WalletConnect,
-    supportedChainIds: [ChainId.Eth],
+    // supportedChainIds: [ChainId.Eth],
+    supportedChainIds: [],
     icon: require('@/assets/svg/wallet-connect.svg'),
     downloadUrl: 'https://walletconnect.org/wallets',
   },
