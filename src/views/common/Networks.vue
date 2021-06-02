@@ -1,7 +1,13 @@
 <template>
   <div class="networks">
-    <CLink :href="mainnet ? 'https://bridge.poly.network/testnet' : 'https://bridge.poly.network'"
+    <!-- <CLink :href="mainnet ? 'https://bridge.poly.network/testnet' : 'https://bridge.poly.network'"
            target="_self">
+      {{ mainnet ? $t('common.networks.mainnet') : $t('common.networks.testnet') }}
+    </CLink> -->
+    <CLink
+      :href="mainnet ? ' http://poly-bridge.rockx.com/' : 'http://poly-bridge.stonedefi.io/'"
+      target="_self"
+    >
       {{ mainnet ? $t('common.networks.mainnet') : $t('common.networks.testnet') }}
     </CLink>
   </div>
@@ -12,7 +18,7 @@ import { TARGET_MAINNET } from '@/utils/env';
 
 export default {
   name: 'Networks',
-  data () {
+  data() {
     return {
       mainnet: TARGET_MAINNET,
     };

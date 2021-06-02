@@ -10,7 +10,7 @@
     <CFlexSpan />
     <Menu />
     <Wallets />
-    <Networks />
+    <!-- <Networks /> -->
   </div>
 </template>
 
