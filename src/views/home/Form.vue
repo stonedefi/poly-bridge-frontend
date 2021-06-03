@@ -181,10 +181,10 @@
       <CSubmitButton v-else :disabled="invalid || !(fromToken && toToken)" @click="next">
         {{ $t('buttons.next') }}
       </CSubmitButton>
-      <div class="history">
+      <!-- <div class="history">
         {{ $t('home.form.historyPrefix') }}
         <CLink class="link" :to="{ name: 'transactions' }">{{ $t('home.form.historyLink') }}</CLink>
-      </div>
+      </div> -->
     </div>
     <div class="powered">Powered By Poly.Nework</div>
 

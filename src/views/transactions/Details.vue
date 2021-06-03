@@ -229,7 +229,7 @@ export default {
 
 .step-icon {
   position: absolute;
-  left: -31px;
+  left: -29px;
   top: 1px;
 
   &.pending {
@@ -241,7 +241,7 @@ export default {
   position: absolute;
   left: -24.5px;
   top: 18px;
-  width: 1px;
+  width: 4px;
   height: calc(100% + 36px);
   background: #2fd8ca;
   opacity: 0.3;
@@ -268,11 +268,11 @@ export default {
 .progress-bar {
   flex: 1;
   ::v-deep .el-progress-bar__outer {
-    background: rgba(#ffffff, 0.3);
+    background: rgba(#3ec7eb, 0.3);
   }
 
   ::v-deep .el-progress-bar__inner {
-    background: #ffffff;
+    background: #3ec7eb;
   }
 }
 
