@@ -243,7 +243,7 @@ export default {
   top: 18px;
   width: 1px;
   height: calc(100% + 36px);
-  background: #ffffff;
+  background: #2fd8ca;
   opacity: 0.3;
 }
 

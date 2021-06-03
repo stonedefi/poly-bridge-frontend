@@ -7,6 +7,13 @@
     >
       {{ $t('common.menu.token') }}
     </CLink>
+    <CLink
+      :to="{ name: 'transactions' }"
+      :class="$route.name == 'transactions' ? 'active item' : 'item'"
+      target="_self"
+    >
+      {{ `History` }}
+    </CLink>
     <!-- <CLink :to="{ name: 'nft' }"
            :class="$route.name == 'nft' ? 'active item': 'item'"
            target="_self">

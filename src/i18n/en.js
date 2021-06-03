@@ -16,7 +16,7 @@ export default {
       testnet: 'TestNet',
     },
     menu: {
-      token: 'Token Asset',
+      token: 'Transfer',
       nft: 'NFT Asset',
     },
     connectWallet: {
@@ -38,7 +38,8 @@ export default {
       asset: 'Asset',
       from: 'From',
       to: 'To',
-      chainName: '{chainName}\nNetwork',
+      // chainName: '{chainName}\nNetwork',
+      chainName: '{chainName}',
       amount: 'Amount',
       max: 'MAX',
       balance: 'Balance',

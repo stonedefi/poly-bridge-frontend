@@ -651,18 +651,19 @@ export default {
 }
 
 .select-chain-content {
+  position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   width: stretch;
-  padding: 15px;
+  padding: 12px;
   border: 1px solid #ac9c82;
   border-radius: 4px;
   background: rgba(#ffffff, 0.04);
 }
 
 .select-chain-icon {
-  width: 40px;
+  width: 30px;
   @include next-margin-v(8px);
 }
 
@@ -670,6 +671,7 @@ export default {
   font-size: 14px;
   white-space: pre-line;
   text-align: left;
+  margin-left: 8px;
 }
 
 .address {
@@ -683,7 +685,10 @@ export default {
 }
 
 .chevron-down {
-  align-self: flex-end;
+  // align-self: flex-end;
+  position: absolute;
+  right: 12px;
+  top: 40%;
 }
 
 .input {

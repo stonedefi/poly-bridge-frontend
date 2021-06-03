@@ -1,7 +1,6 @@
 <template>
   <div class="wallets">
-    <CPopover v-if="!connectedWallets.length"
-              v-model="connectWalletVisible">
+    <CPopover v-if="!connectedWallets.length" v-model="connectWalletVisible">
       <CButton class="connect-wallet-button">{{ $t('common.wallets.connectWallet') }}</CButton>
       <template #content>
         <ConnectWallet @close="connectWalletVisible = false" />
@@ -9,20 +8,16 @@
     </CPopover>
 
     <template v-else>
-      <CPopover v-for="wallet in connectedWallets"
-                :key="wallet.name"
-                trigger="hover">
+      <CPopover v-for="wallet in connectedWallets" :key="wallet.name" trigger="hover">
         <CButton>
-          <img class="wallet-icon"
-               :src="wallet.icon" />
+          <img class="wallet-icon" :src="wallet.icon" />
         </CButton>
         <template #content>
           <Wallet :wallet="wallet" />
         </template>
       </CPopover>
 
-      <CPopover class="show-all"
-                v-model="connectWalletVisible">
+      <CPopover class="show-all" v-model="connectWalletVisible">
         <CButton>
           <img src="@/assets/svg/chevron-down.svg" />
         </CButton>
@@ -46,20 +41,20 @@ export default {
     Wallet,
     ConnectWallet,
   },
-  data () {
+  data() {
     return {
       connectWalletVisible: false,
     };
   },
   computed: {
-    wallets () {
+    wallets() {
       return this.$store.getters.wallets;
     },
-    connectedWallets () {
+    connectedWallets() {
       return this.wallets.filter(wallet => wallet.connected);
     },
   },
-  created () {
+  created() {
     this.wallets.forEach(async wallet => {
       Vue.use(await getWalletApi(wallet.name));
     });
@@ -81,7 +76,7 @@ export default {
 }
 .connect-wallet-button {
   padding: 8px 20px;
-  border: 1px solid #ffffff;
+  border: 1px solid #2fd8ca;
   border-radius: 4px;
   font-size: 14px;
 }

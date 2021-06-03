@@ -218,7 +218,7 @@ export default {
   height: 34px;
   padding: 0px 15px;
   border-radius: 4px;
-  border: 1px solid #ffffff;
+  border: 1px solid #2fd8ca;
   @include child-margin-h(8px);
 }
 </style>
