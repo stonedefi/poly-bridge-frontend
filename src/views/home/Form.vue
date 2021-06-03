@@ -55,7 +55,9 @@
           </div>
 
           <CButton :disabled="!toChainId" @click="exchangeFromTo">
-            <img src="@/assets/svg/exchange.svg" />
+            <div class="keepm">
+              <img class="mtspace" src="@/assets/svg/exchange.svg" />
+            </div>
           </CButton>
 
           <div class="field">
@@ -745,5 +747,11 @@ export default {
   label {
     margin-bottom: 10px;
   }
+}
+.keepm {
+  height: 100%;
+}
+.mtspace {
+  margin-top: 45px;
 }
 </style>
