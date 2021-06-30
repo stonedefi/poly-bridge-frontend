@@ -7,6 +7,7 @@ export default {
   common: {
     header: {
       brandName: 'Home',
+      bridgeMatic: 'Bridge (eth↔matic)',
     },
     wallets: {
       connectWallet: 'Connect Wallet',
@@ -34,7 +35,7 @@ export default {
         'To\nbuild the next generation\nInternet infrastructure,\nrealize interoperability\nbetween\nmultiple <em>chains</em>',
     },
     form: {
-      title: 'Bridge',
+      title: 'Bridge (eth↔bsc)',
       asset: 'Asset',
       from: 'From',
       to: 'To',
