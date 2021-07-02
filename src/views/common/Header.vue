@@ -8,6 +8,9 @@
     </CLink>
     <a href="https://www.stonedefi.io/" class="brand-name">{{ $t('common.header.brandName') }}</a>
     <CFlexSpan />
+    <a href="https://wallet.matic.network/bridge/" target="_black" class="bridge-matic">{{
+      $t('common.header.bridgeMatic')
+    }}</a>
     <Menu />
     <Wallets />
     <!-- <Networks /> -->
@@ -51,5 +54,10 @@ export default {
   color: unset;
   text-decoration: none;
   font-size: 20px;
+}
+.bridge-matic {
+  padding-right: 20px;
+  color: unset;
+  text-decoration: none;
 }
 </style>

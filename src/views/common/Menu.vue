@@ -55,6 +55,8 @@ export default {
   }
   .active {
     // color: rgba(255, 255, 255, 1) !important;
+    text-decoration: underline;
+    text-underline-position: under;
   }
 }
 </style>
